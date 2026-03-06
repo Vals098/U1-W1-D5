@@ -1,1 +1,220 @@
-/* Your styles here */
+/* font body */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* font headings */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+/* BODY */
+body {
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  width: 100%;
+}
+
+h2,
+h3 {
+  line-height: 1.5;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+/* Header */
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+header img {
+  width: 150px;
+}
+
+/* Main */
+/* first block with background */
+#intro {
+  background-image: url(../../Assets/banner.jpg);
+  background-size: 100%;
+  background-position: center top;
+  padding: 8em 12em;
+  text-align: center;
+}
+
+#intro h2 {
+  margin: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+#intro p {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  padding-top: 0;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  padding: 1em 1.8em;
+  border: #f04c2f;
+  border-radius: 5px;
+  color: white;
+}
+
+/* second block with round image. Now two div with inline-block */
+#central1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em 2em;
+  text-align: center;
+}
+
+h3 {
+  padding: 1em;
+}
+
+#central1 img {
+  overflow: hidden;
+  width: 30%;
+  clip-path: circle(50%);
+  margin: 0;
+  margin-right: 3em;
+  box-sizing: border-box;
+}
+
+#central2 {
+  display: inline-block;
+  padding: auto;
+  box-sizing: border-box;
+  margin: 0;
+  width: 40%;
+  text-align: left;
+}
+
+#central2 h3 {
+  padding-left: 0;
+}
+
+#central2 :first-child {
+  padding-top: 0;
+}
+
+/* third block with quote and red bg*/
+#quote {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+}
+
+#quote h2 {
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#quote p {
+  margin-bottom: 1em;
+}
+
+span {
+  font-style: italic;
+  font-size: 1.5em;
+}
+#quote #author {
+  margin-bottom: 0;
+}
+
+#author {
+  font-size: 1.2em;
+  font-weight: 250;
+  padding-bottom: 0;
+}
+
+#role {
+    font-size: 0.8em;
+  padding-bottom: 6em;
+}
+
+/* final block */
+#div-container {
+  padding: 2em 2em;
+  text-align: center;
+}
+
+.mini-div {
+  border: 2px solid #dee1e3;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+}
+
+.mini-div img {
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  text-align: center;
+}
+
+#contacts {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin: 0 auto;
+  display: inline-block;
+  border-bottom: 2px solid #c8e7f0;
+  text-align: left;
+}
+
+footer h2,
+i {
+  color: white;
+  padding-bottom: 0.5em;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+#contacts a {
+  display: block;
+}
+
+#copyrights {
+  padding-top: 1em;
+  padding-bottom: 4em;
+}
+
+footer h2 {
+  padding-bottom: 0;
+  padding-top: 1em;
+}
