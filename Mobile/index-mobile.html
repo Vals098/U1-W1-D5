@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -12,7 +16,7 @@
       <img src="../Assets/logo.png" alt="logo Epicode" />
     </header>
     <main>
-      <div>
+      <div id="intro">
         <h2>Corso Web Developer</h2>
         <p>
           Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono
@@ -20,11 +24,11 @@
         </p>
         <button type="button">PARTIAMO!</button>
       </div>
-      <div>
+      <div id="central1">
         <h3>Tutti ti cercheranno</h3>
         <p>
-          Sono 30.000 in Italia le posizioni a developer scoperte, scegli quella
-          che ti stimola di più
+          Sono 30.000 in Italia le posizioni di developer scoperte, scegli
+          quella che ti stimola di più
         </p>
         <h3>Lavora dove vuoi</h3>
         <p>Lavora da casa, in riva al mare o in montagna.</p>
@@ -36,7 +40,7 @@
           Non serve lavorare in ufficio per essere creatori di prodotti digitali
         </p>
       </div>
-      <div>
+      <div id="quote">
         <h2>Epicode garantisce</h2>
         <p>
           <span
@@ -44,20 +48,20 @@
             vita&quot;</span
           >
         </p>
-        <h5>Mario Rossi</h5>
-        <p class="role">CEO, Epicode</p>
+        <p id="author">Mario Rossi</p>
+        <p id="role">CEO, Epicode</p>
       </div>
       <div id="div-container">
         <div class="mini-div">
           <img src="../Assets/foto1.jpg" alt="foto 1" />
-          <h4>Il tuo PC</h4>
+          <h3>Il tuo PC</h3>
           <p class="small">
-            Se vuoi diventare developer è l'unico strumento di cui hal bisognol
+            Se vuoi diventare developer è l'unico strumento di cui hal bisogno.
           </p>
         </div>
         <div class="mini-div">
           <img src="../Assets/foto2.jpg" alt="foto 2" />
-          <h4>Impara ora</h4>
+          <h3>Impara ora</h3>
           <p class="small">
             Impara da chi diventerai tra qualche anno, e diventa una rockstar
             come loro.
@@ -65,7 +69,7 @@
         </div>
         <div class="mini-div">
           <img src="../Assets/foto3.jpg" alt="foto 3" />
-          <h4>Lavora subito</h4>
+          <h3>Lavora subito</h3>
           <p class="small">
             Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.
           </p>
@@ -73,12 +77,14 @@
       </div>
     </main>
     <footer>
-      <h2>Contattaci</h2>
-      <a href="tel:+39123456789">(+39)123456789</a>
-      <a href="mailto:ingo@epicode.school">info@epicode.school</a>
-      <p>Via Appia 1 - 00100 Roma (RM)</p>
-      <div>
-        <p>&copy;2021.Immagini di <a href="#">Pixabay</a></p>
+      <div id="contacts">
+        <h2>Contattaci</h2>
+        <a href="tel:+39123456789"><i class="fas fa-phone-square-alt"></i> (+39)123456789</a>
+        <a href="mailto:ingo@epicode.school"><i class="fas fa-envelope-square"></i> info@epicode.school</a>
+        <p><i class="fas fa-location-arrow"></i> Via Appia 1 - 00100 Roma (RM)</p>
+      </div>
+      <div id="copyrights">
+        <p>&copy;2021. Immagini di <a href="#">Pixabay</a></p>
       </div>
     </footer>
   </body>
