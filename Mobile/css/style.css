@@ -84,6 +84,10 @@ button {
   color: white;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* second block with round image */
 #central1 {
   padding: 2em 2em;

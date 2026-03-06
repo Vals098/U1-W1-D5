@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 /* BODY */
+
 body {
   font-size: 1.2rem;
   line-height: 1.65;
@@ -46,6 +47,7 @@ header img {
 
 /* Main */
 /* first block with background */
+
 #intro {
   background-image: url(../../Assets/banner.jpg);
   background-size: 100%;
@@ -81,10 +83,15 @@ button {
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* second block with round image. Now two div with inline-block */
+
 #central1 {
   width: 100%;
-  margin: 0 auto;
+  margin: 4em auto;
   padding: 2em 2em;
   text-align: center;
 }
@@ -95,11 +102,10 @@ h3 {
 
 #central1 img {
   overflow: hidden;
-  width: 30%;
   clip-path: circle(50%);
   margin: 0;
   margin-right: 3em;
-  box-sizing: border-box;
+  height: 400px;
 }
 
 #central2 {
@@ -120,6 +126,7 @@ h3 {
 }
 
 /* third block with quote and red bg*/
+
 #quote {
   background-color: #e22d0e;
   color: white;
@@ -151,11 +158,12 @@ span {
 }
 
 #role {
-    font-size: 0.8em;
+  font-size: 0.8em;
   padding-bottom: 6em;
 }
 
-/* final block */
+/* final block, changed .mini-divs into inline-block, gave fixed height and object-fit:cover*/
+
 #div-container {
   padding: 2em 2em;
   text-align: center;
@@ -179,7 +187,8 @@ span {
   object-fit: cover;
 }
 
-/* Footer */
+/* Footer*/
+/* the inline-block is now the #contacts block to better fit the new positions and to allow text-align:left and the new border lenght*/
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
